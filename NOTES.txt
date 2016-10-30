@@ -1,0 +1,188 @@
+##When downloading visual studio on personal PC.
+
+Installing .NET Version Manager to C:\Users\crispd\.dnx\bin
+Creating destination folder 'C:\Users\crispd\.dnx\bin' ...
+Installing 'dnvm.ps1' to 'C:\Users\crispd\.dnx\bin' ...
+Installing 'dnvm.cmd' to 'C:\Users\crispd\.dnx\bin' ...
+Adding C:\Users\crispd\.dnx\bin to Process PATH
+Adding C:\Users\crispd\.dnx\bin to User PATH
+Adding C:\Users\crispd\.dnx to Process DNX_HOME
+Adding C:\Users\crispd\.dnx to User DNX_HOME
+
+C:\Program Files (x86)\Microsoft Visual Studio 14.0>
+
+
+#NOTES
+double rate = 0.07, time, balance(0.0);
+new line			\n
+horizontal tab		\t
+alert				\a
+backlash			\\
+double quote		\"
+
+raw string literals...
+	cout << R"(c:\files\)";
+
+cout.setf(ios::fixed);
+cout.setf(ios::showpoint);
+cout.precision(2);
+	following outputs will be values of type double in ordinary notation, with exactly two digits after the decimal point.
+
+double-precision
+	uses more storage, aka float
+single-precision
+	uses less storage, aka double
+w/ fractional part
+	long double
+
+	
+count += 2; count = count + 2;
+total -= discount; total = total - discount;
+bonus *= 2; bonus = bonus * 2;
+time /= rush_factor; time = time / rush_factor;
+change %= 100; change = change % 100;
+amount *= cnt1 + cnt2; amount = amount * (cnt1 + cnt2);
+
+AND = &&
+OR = ||
+decrement operator, n--
+marking variable as not-changeable
+const <type> <VAR>
+
+GIT
+create origin repo w/o readme, .gitignore, .git, etc..
+git init to initialize local folder as git repo
+git add . to addfiles in local repo and stage them for commit.
+	to unstage: use 'git reset HEAD <your-file>'
+'git commit -m "First commit"'
+	Commits the tracked changes and prepares them to be pushed.
+		remove this commit and modify the file, use 'git reset --soft HEAD~1' and commit and add the file again.
+copy the remote repo URL
+Add URL for the remote repository where your local will be pushed:
+	'git remote add origin <remote repository URL>'
+		Sets the new remote
+	'git remote -v'
+		Verifies the new remote URL
+Push changes upstream
+
+MAKE PROGRAM
+cl /EHsc Application1.cpp
+
+#
+#CLASS WORK
+#
+Practice Problem 2
+No graded assignments until chapter 3
+Solve Chapter 2 programming projects 70404 & 70405
+
+Page 130
+OR PAGE 103
+
+FIRST TEST: SEPT 22, on chapters 2 & 3. T&F, M. Choice, Fill in blank, an application
+Name___
+TEST #1
+DATE
+PG1:TRUE/FALSE
+PG2:MULTIPLE CHOICE
+PG3:CODE THE APP, RUN THE APP, PRINT THE RESULTS
+
+Lab #1: myprogramming 70404 & 70405
+	non grading chapter 1, 4, 5 (not programming project)
+
+9SEPT2016:
+how to submit lab
+how to submit in class programming assignment
+Format for test#1
+
+Next Tuesday Section 3.1, 3.2
+
+13SEPT2016:
+Procedural->Precedural Abstract->OOPS (OOPS more of 231)
+PROCESS CONTROL
+	if
+	else
+	while
+	do while
+DATA
+	int
+	double
+	char
+	string
+
+"\n"
+"\t"
+||, &&, >, >=, <, <=
+
+22SEPT2016:
+Due Oct. 4
+Lab#2, Chapter 3 70407, Chapter 4 70410
+
+Section 4.1, 4.2
+
+
+27SEPT2016:
+Sections read: 4.1, 4.2
+	havn't read yet
+Practice Problems done: CH2-1,4,5
+	haven't done yet
+Lab & Test 1 grades are posted.
+Test#2, OCT6: T/F, M.Choice, Short Answers
+Lab#2, OCT6: 70407, 70410. one application with some source code.
+
+The teacher has been assigned to count the number of students in a class.
+Produce the reports for the total number of students counted in assigned classes.
+Also create a repost listing the number of studnets in each class that he/she is assigned. 
+A data entry clark will use this report to enter the count for each class.
+OUTPUT:
+Attendance:
+1	20
+2	35
+3	0
+4	3
+5	250
+
+while, do-while
+variable number of classes
+variable number of students
+
+using driver, and sub-procedures.
+seems like class, and methods.
+sooo...
+
+MAIN PROGRAM
+	TOTAL FUNCTION
+	
+
+
+4OCT2016:
+Chapter 4 & 5
+Lab#2, Test#2
+
+Expected knowledge
+cin/cout
+fin/fout
+process counter
+if/ifelse, brea, while, do while, for loop, void funct_name(), void funct_name(listofparam), int funct_name(), double funct_name(), clear screen, show return
+
+
+18OCT2016:
+Test#3
+Chapter 6&7 (having finished 1,2,4,&5)
+Provided study guide
+starting chapter 6 today
+True&False
+One Application
+One Lab Application
+
+Final Project due by 1-wk from final exam.
+Project Topic: see notes in projects/
+
+Lab#3 is due on Thursday
+on chapter 6&7
+
+
+RESOURCE FOR EQUIVALENT COURSE:
+https://msu.edu/~bowmanm/230
+
+	
+	

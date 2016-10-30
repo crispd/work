@@ -1,0 +1,28 @@
+TRUE FALSE
+1:	TRUE
+2:	TRUE
+3:	FALSE
+4:	FALSE
+5:	FALSE
+6:	FALSE
+7:	TRUE
+8:	TRUE
+9:	FALSE
+10:	TRUE, though some might argue for >=
+
+MULTIPLE CHOICE
+1:	b. three_com
+2:	d. 33
+3:	d. garbage, var x was unassigned
+4:	d. garbage, "valu" is a string, e is not a variable, and expecting << instead of e.
+5:	a. cin>>myFloat;
+6:	b. 3
+7:	c. 3, does not matter how you try to set a decimal to an int, it's still an int.
+8:	d. 3, 2/5 is an integer division resulting in .4 which gets rounded down to 0. either 2 or 5 would need to carry a decimal.
+9:	b. false
+10: d. ((y<x)&&(x<z))
+11:	a. false
+12:	c. (x >=2&& x <=15)
+13:	c. 14
+14:	c. 5
+15:	a. 3

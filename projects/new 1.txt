@@ -1,0 +1,56 @@
+Hello Professor and Cyprian,
+
+
+
+I've been thinking about the project... I made a long list of things but I think I've narrowed it down to two options. It seems what's being asked is an explanation of what we do at work through our experience writing an exploratory application. 
+Background: We accelerate ions where I work, our goal is to get a beam of these ions to the experiment with the best transmission, focus, energy, and duty cycle. When we aren't running a beam to an experiment, I work on developing software (with EPICS, a software mostly in C) that handles the middle layer I/O which in turn enables a user (beam physicist/engineer) to interact efficiently with and manipulate machine settings.
+
+Idea #1:
+
+Issue: There are days where our ion source is unstable, making the trajectory of the beam difficult to maintain over time.
+
+Task: Develop an optimization code where the user can set a parameter to optimize (i.e. the experiment's measurement of particles per second, or a current (Amps) read out of a faraday cup), and a beam-line element (i.e. an electrostatic corrector who's controlled set point is in volts). Then use that element's primary control setting to optimize.
+
+Idea #2:
+
+Issue: We have probes that are inserted into the beam's path which can then read back a beam's current (Amps). There are times when we'd like to know the read back values from all of these devices and it is a pain to have to insert one, wait, save the average readback (there's lot's of noise), insert one upstream, retract the last one, and repeat. This is error prone, and effectively deters people from doing these measurements as much as they probably should.
+
+Task: Write code that automates the insertion-average measurement-retraction-log-repeat cycle for upstream device. Data could also be presented to the user intuitively with some graphic and be ready for inserting into any of our official logs.
+
+
+I hope I've understood this correctly. Thanks,
+
+-Dan
+
+
+
+
+
+
+
+
+
+
+
+
+
+As for the project... I made a long list of things but I think I've narrowed it down to two things.
+
+Background: We accelerate ions where I work, our goal is to get a beam of these ions to the experiment with the best transmission, focus, energy, and duty cycle. When we aren't running beam, I work on developing software that handles the middle layer I/O that enables a user (beam physicist/engineer) to interact efficiently with and manipulate machine settings.
+
+Idea #1:
+
+        Issue: There are days where our ion source is unstable, making the trajectory of the beam difficult to maintain over time.
+
+        Task: Develop an optimization code where the user can set a parameter to optimize (i.e. the experiment's measurement of particles per second, or a current (Amps) read out of a faraday cup), and a beam-line element (i.e. an electrostatic corrector who's controlled set point is in volts). Then use that element's primary control setting to optimize.
+
+Idea #2:
+
+        Issue: We've uprooted our whole controls system over the summer. One of the things that needs to be improved is the methods we have in place to take all machine settings, and multiply them by the 'correct' values (depending on energy, charge-mass ratio at the given position) that gets our next ion species to the experiment reasonably well to first order.
+        Task: Take all relevant beam-line elements (each read back and setting defined in database files from code already in place), calculate new values for them (scale them) based on parameters defined by user, then allow user to either compare the result to previous ones or apply these values to the machine.
+
+Idea #3:
+
+        Issue: We have probes that are inserted into the beam's path which can then read back a beam's current (Amps). There are times when we'd like to know the value read back by all of these devices and it is a pain to have to insert one, wait, save the average readback (there's lot's of noise), insert one upstream, retract the last one, and repeat. This is error prone, and effectively deters people from doing these measurements.
+
+        Task: Write code that automates the insertion-average measurement-retraction-log-repeat cycle. If possible, find out way to insert the full log into official logbooks used as reference throughout the lab.

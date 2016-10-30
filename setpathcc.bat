@@ -1,0 +1,1 @@
+set path=%path%;C:\Program Files (x86)\microsoft visual studio 14.0\vc\bin

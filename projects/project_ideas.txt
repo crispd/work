@@ -1,0 +1,57 @@
+Final Project due by 1-wk from final exam.
+Project Topic:
+-beamline scaling
+	defining data (voltages, currents)
+	grabbing data
+	Display data
+		select/search
+		compare
+		set
+		save
+	allow user to determine scaling parameters
+	Display data (and option for transparrent calculation)
+		select/search
+		compare
+		set
+		save
+-emittance measurement & scans
+	set-up
+	scan voltage||field||slits
+	log output
+	display result
+-element optimization
+	input monitoring parameter
+	input element to optimize, range &&|| rate, desired value for monitor
+	optimize, learn from misteps, and reaction time
+		if(time), track trends
+-optics data & live data
+	conversions
+		live values to DYNAC
+		DYNAC to live values
+	verify output
+		viewer image automation
+		transmission measurements
+-Transmission measurements
+	automate beam current readings
+	display
+		to log
+		for comparing to past values & visualize success
+-viewer automation
+	automate viewer drives, image capture
+	aggregate information
+	simple analysis
+		comparison to DYNAC/flame output
+		Gaussian fit (emittance if incl. scans)
+		comparison to previous images, gold tune
+	Option to analyze images over time, variation
+-structures (epics records)
+-driver support
+	knobs
+	drives
+	python support for syncronization to C++
+-I/O servers
+	logging
+	alarms
+	process tracing
+	scan servers
+	security
